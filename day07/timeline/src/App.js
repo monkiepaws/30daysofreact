@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import activities from './activities.js';
-import Header from './Header.jsx';
-import Content from './Content.jsx';
+import Header from './components/Header.jsx';
+import Content from './components/Content.jsx';
+import Clock from './components/Clock';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
               <div className="panel">
                   <Header title="Timeline" />
                   <Content activities={activities} />
+                  <Clock />
               </div>
           </div>
       )
