@@ -9,7 +9,7 @@
   font-family: 'Open Sans', Helvetica, sans-serif;
   margin-bottom: 40px;
 }
- .notificationsFrame.show-menu {
+ .notificationsFrame .show-menu {
   transform: translate3d(150px, 0, 0);
 }
  .notificationsFrame .searchInput {
